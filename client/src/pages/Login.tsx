@@ -124,7 +124,7 @@ const Login: React.FC<RouteProps> = () => {
                 {isSubmitting ? (
                   <PulseLoader color="#fff" size={8} />
                 ) : (
-                  <p>Register</p>
+                  <p>Login</p>
                 )}
               </C.Button>
 

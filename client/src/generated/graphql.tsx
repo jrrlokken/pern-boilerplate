@@ -214,7 +214,7 @@ export type GetProfileQueryResult = Apollo.QueryResult<GetProfileQuery, GetProfi
 export const RegisterDocument = gql`
     mutation Register($firstName: String!, $lastName: String!, $email: String!, $password: String!) {
   register(
-    data: {email: $email, firstName: $firstName, lastName: $lastName, password: $password}
+    data: {firstName: $firstName, lastName: $lastName, email: $email, password: $password}
   ) {
     id
     firstName
